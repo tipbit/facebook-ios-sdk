@@ -311,14 +311,10 @@
 		8932957C18E384B200BF1B30 /* FBLikeBoxBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8932957A18E384B200BF1B30 /* FBLikeBoxBorderView.m */; };
 		8961FDAF18D3B72A0033CDCB /* FBLikeDialogParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 8961FDAD18D3B72A0033CDCB /* FBLikeDialogParams.h */; };
 		8961FDB018D3B72A0033CDCB /* FBLikeDialogParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDAE18D3B72A0033CDCB /* FBLikeDialogParams.m */; };
-		8961FDBD18D3BC9F0033CDCB /* FBLikeActionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8961FDB618D3BC9F0033CDCB /* FBLikeActionController.h */; };
-		8961FDBE18D3BC9F0033CDCB /* FBLikeActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDB718D3BC9F0033CDCB /* FBLikeActionController.m */; };
 		8961FDBF18D3BC9F0033CDCB /* FBLikeButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 8961FDB818D3BC9F0033CDCB /* FBLikeButton.h */; };
 		8961FDC018D3BC9F0033CDCB /* FBLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDB918D3BC9F0033CDCB /* FBLikeButton.m */; };
-		8961FDC118D3BC9F0033CDCB /* FBLikeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDBA18D3BC9F0033CDCB /* FBLikeControl.m */; };
 		8961FDC218D3BC9F0033CDCB /* FBSocialSentenceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8961FDBB18D3BC9F0033CDCB /* FBSocialSentenceView.h */; };
 		8961FDC318D3BC9F0033CDCB /* FBSocialSentenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDBC18D3BC9F0033CDCB /* FBSocialSentenceView.m */; };
-		8961FDC518D3BCD60033CDCB /* FBLikeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8961FDC418D3BCD60033CDCB /* FBLikeControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8961FDEB18D3C1080033CDCB /* FBDialogClose.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDD218D3BE6F0033CDCB /* FBDialogClose.png */; };
 		8961FDED18D3C1150033CDCB /* FBFriendPickerViewDefault.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDD518D3BE6F0033CDCB /* FBFriendPickerViewDefault.png */; };
 		8961FDEE18D3C1380033CDCB /* FBLikeButtonBackground.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDD718D3BE6F0033CDCB /* FBLikeButtonBackground.png */; };
@@ -330,7 +326,6 @@
 		8961FDFC18D3C1380033CDCB /* FBPlacePickerViewGenericPlace.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDE718D3BE6F0033CDCB /* FBPlacePickerViewGenericPlace.png */; };
 		8961FDFD18D3C1380033CDCB /* FBProfilePictureViewBlankProfilePortrait.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDE918D3BE6F0033CDCB /* FBProfilePictureViewBlankProfilePortrait.png */; };
 		8961FDFE18D3C1380033CDCB /* FBProfilePictureViewBlankProfileSquare.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDEA18D3BE6F0033CDCB /* FBProfilePictureViewBlankProfileSquare.png */; };
-		8961FE0318D3C1FD0033CDCB /* FBLikeButtonPop.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE0218D3C1F70033CDCB /* FBLikeButtonPop.wav */; };
 		8961FE1218D7440E0033CDCB /* FBAudioResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8961FE1018D7440E0033CDCB /* FBAudioResourceLoader.h */; };
 		8961FE1318D7440E0033CDCB /* FBAudioResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE1118D7440E0033CDCB /* FBAudioResourceLoader.m */; };
 		8991E21618E9F31A00D1AAB7 /* FBTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3D36A417CBE6C500B9B049 /* FBTask.m */; };
@@ -356,16 +351,10 @@
 		89A440FA18DB8C87001AC2F9 /* FBPlacePickerViewGenericPlace.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDE718D3BE6F0033CDCB /* FBPlacePickerViewGenericPlace.png */; };
 		89A440FB18DB8C87001AC2F9 /* FBProfilePictureViewBlankProfilePortrait.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDE918D3BE6F0033CDCB /* FBProfilePictureViewBlankProfilePortrait.png */; };
 		89A440FC18DB8C87001AC2F9 /* FBProfilePictureViewBlankProfileSquare.png in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDEA18D3BE6F0033CDCB /* FBProfilePictureViewBlankProfileSquare.png */; };
-		89A440FD18DB8CB2001AC2F9 /* FBLikeButtonPop.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE0218D3C1F70033CDCB /* FBLikeButtonPop.wav */; };
-		89A440FE18DB8CB7001AC2F9 /* FBLikeButtonPop.wav in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE0218D3C1F70033CDCB /* FBLikeButtonPop.wav */; };
 		89A4410118DB93BB001AC2F9 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C9D1BD16A79B4900D0ED57 /* OCHamcrestIOS.framework */; };
-		89A4410218DB9644001AC2F9 /* FBLikeActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDB718D3BC9F0033CDCB /* FBLikeActionController.m */; };
 		89A4410318DB9644001AC2F9 /* FBLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDB918D3BC9F0033CDCB /* FBLikeButton.m */; };
-		89A4410418DB9644001AC2F9 /* FBLikeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDBA18D3BC9F0033CDCB /* FBLikeControl.m */; };
 		89A4410518DB964E001AC2F9 /* FBSocialSentenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDBC18D3BC9F0033CDCB /* FBSocialSentenceView.m */; };
-		89A4410618DB964F001AC2F9 /* FBLikeActionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDB718D3BC9F0033CDCB /* FBLikeActionController.m */; };
 		89A4410718DB964F001AC2F9 /* FBLikeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDB918D3BC9F0033CDCB /* FBLikeButton.m */; };
-		89A4410818DB964F001AC2F9 /* FBLikeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDBA18D3BC9F0033CDCB /* FBLikeControl.m */; };
 		89A4410918DB964F001AC2F9 /* FBSocialSentenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FDBC18D3BC9F0033CDCB /* FBSocialSentenceView.m */; };
 		89A4410A18DB9661001AC2F9 /* FBAudioResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE1118D7440E0033CDCB /* FBAudioResourceLoader.m */; };
 		89A4410B18DB9662001AC2F9 /* FBAudioResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8961FE1118D7440E0033CDCB /* FBAudioResourceLoader.m */; };
@@ -783,14 +772,10 @@
 		8932957A18E384B200BF1B30 /* FBLikeBoxBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLikeBoxBorderView.m; sourceTree = "<group>"; };
 		8961FDAD18D3B72A0033CDCB /* FBLikeDialogParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLikeDialogParams.h; sourceTree = "<group>"; };
 		8961FDAE18D3B72A0033CDCB /* FBLikeDialogParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLikeDialogParams.m; sourceTree = "<group>"; };
-		8961FDB618D3BC9F0033CDCB /* FBLikeActionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLikeActionController.h; sourceTree = "<group>"; };
-		8961FDB718D3BC9F0033CDCB /* FBLikeActionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLikeActionController.m; sourceTree = "<group>"; };
 		8961FDB818D3BC9F0033CDCB /* FBLikeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLikeButton.h; sourceTree = "<group>"; };
 		8961FDB918D3BC9F0033CDCB /* FBLikeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLikeButton.m; sourceTree = "<group>"; };
-		8961FDBA18D3BC9F0033CDCB /* FBLikeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLikeControl.m; sourceTree = "<group>"; };
 		8961FDBB18D3BC9F0033CDCB /* FBSocialSentenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBSocialSentenceView.h; sourceTree = "<group>"; };
 		8961FDBC18D3BC9F0033CDCB /* FBSocialSentenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBSocialSentenceView.m; sourceTree = "<group>"; };
-		8961FDC418D3BCD60033CDCB /* FBLikeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLikeControl.h; sourceTree = "<group>"; };
 		8961FDD218D3BE6F0033CDCB /* FBDialogClose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBDialogClose.png; sourceTree = "<group>"; };
 		8961FDD318D3BE6F0033CDCB /* FBDialogClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FBDialogClose@2x.png"; sourceTree = "<group>"; };
 		8961FDD518D3BE6F0033CDCB /* FBFriendPickerViewDefault.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBFriendPickerViewDefault.png; sourceTree = "<group>"; };
@@ -809,7 +794,6 @@
 		8961FDE718D3BE6F0033CDCB /* FBPlacePickerViewGenericPlace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBPlacePickerViewGenericPlace.png; sourceTree = "<group>"; };
 		8961FDE918D3BE6F0033CDCB /* FBProfilePictureViewBlankProfilePortrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBProfilePictureViewBlankProfilePortrait.png; sourceTree = "<group>"; };
 		8961FDEA18D3BE6F0033CDCB /* FBProfilePictureViewBlankProfileSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FBProfilePictureViewBlankProfileSquare.png; sourceTree = "<group>"; };
-		8961FE0218D3C1F70033CDCB /* FBLikeButtonPop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = FBLikeButtonPop.wav; sourceTree = "<group>"; };
 		8961FE1018D7440E0033CDCB /* FBAudioResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBAudioResourceLoader.h; sourceTree = "<group>"; };
 		8961FE1118D7440E0033CDCB /* FBAudioResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBAudioResourceLoader.m; sourceTree = "<group>"; };
 		89BEB3E518E3BC31006C97A6 /* FBUIHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBUIHelpers.h; sourceTree = "<group>"; };
@@ -974,7 +958,6 @@
 		08FB77AEFE84172EC02AAC07 /* FacebookSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8961FE0018D3C1CD0033CDCB /* AudioResources */,
 				B5B7702D16C30EAD00729340 /* Base64 */,
 				8474FEA91868E20B000698FF /* Core */,
 				B51484E516C6223D0041257D /* Cryptography */,
@@ -1008,7 +991,6 @@
 				84E2DA27153492DE007F886C /* FBGraphPlace.h */,
 				84E0C9F81535ED5A00778DA4 /* FBGraphUser.h */,
 				5FC7ABA1178C7A4900829DD1 /* FBInsights.h */,
-				8961FDC418D3BCD60033CDCB /* FBLikeControl.h */,
 				9D7A373C18FF119500B1EFC2 /* FBLinkShareParams.h */,
 				9D3FA21818A2CF65005B8F50 /* FBLoginTooltipView.h */,
 				89BEB40918E48003006C97A6 /* FBLoginView.h */,
@@ -1142,15 +1124,12 @@
 				84F992441871DC5C00E3369F /* FBFriendPickerCacheDescriptor.m */,
 				84F992461871DC5C00E3369F /* FBFriendPickerViewController+Internal.h */,
 				84F992451871DC5C00E3369F /* FBFriendPickerViewController.m */,
-				8961FDB618D3BC9F0033CDCB /* FBLikeActionController.h */,
-				8961FDB718D3BC9F0033CDCB /* FBLikeActionController.m */,
 				8932957918E384B200BF1B30 /* FBLikeBoxBorderView.h */,
 				8932957A18E384B200BF1B30 /* FBLikeBoxBorderView.m */,
 				8932956A18E232E900BF1B30 /* FBLikeBoxView.h */,
 				8932956B18E232E900BF1B30 /* FBLikeBoxView.m */,
 				8961FDB818D3BC9F0033CDCB /* FBLikeButton.h */,
 				8961FDB918D3BC9F0033CDCB /* FBLikeButton.m */,
-				8961FDBA18D3BC9F0033CDCB /* FBLikeControl.m */,
 				9D61F9ED18A2F67300D3CF41 /* FBLoginTooltipView.m */,
 				84F992471871DC5C00E3369F /* FBLoginView.m */,
 				84F992951871E5F000E3369F /* FBPlacePickerCacheDescriptor.h */,
@@ -1384,22 +1363,6 @@
 			path = FBProfilePictureView;
 			sourceTree = "<group>";
 		};
-		8961FE0018D3C1CD0033CDCB /* AudioResources */ = {
-			isa = PBXGroup;
-			children = (
-				8961FE0118D3C1D90033CDCB /* FBLikeButton */,
-			);
-			path = AudioResources;
-			sourceTree = "<group>";
-		};
-		8961FE0118D3C1D90033CDCB /* FBLikeButton */ = {
-			isa = PBXGroup;
-			children = (
-				8961FE0218D3C1F70033CDCB /* FBLikeButtonPop.wav */,
-			);
-			path = FBLikeButton;
-			sourceTree = "<group>";
-		};
 		99F1D7E617726FE600BEBF6F /* ImageResources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1606,14 +1569,12 @@
 				84F991DC1871C5A000E3369F /* FBAppBridgeTypeToJSONConverter.h in Headers */,
 				B5B4C1D016F7AC28006FF55B /* FBDialogsParams.h in Headers */,
 				84F9920B1871CAA600E3369F /* FBConnect.h in Headers */,
-				8961FDBD18D3BC9F0033CDCB /* FBLikeActionController.h in Headers */,
 				84F991DF1871C5A000E3369F /* FBAppCall+Internal.h in Headers */,
 				B5E8DC26170C22DA009A4590 /* FBAppCall.h in Headers */,
 				84F991DA1871C5A000E3369F /* FBAppBridge.h in Headers */,
 				84F992BC1871E62700E3369F /* FBRequest+Internal.h in Headers */,
 				859F0B8418B7C65F0011AFEF /* FBShareDialogPhotoParams.h in Headers */,
 				B5E8DC33170C22FC009A4590 /* FBDialogsData.h in Headers */,
-				8961FDC518D3BCD60033CDCB /* FBLikeControl.h in Headers */,
 				B59DA053170CE02300955BCD /* FBAppLinkData.h in Headers */,
 				84F9923F1871CC8B00E3369F /* FBLoginDialog.h in Headers */,
 				9D5D2996170F788A00FA5899 /* FBErrorUtility.h in Headers */,
@@ -1831,7 +1792,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A440FE18DB8CB7001AC2F9 /* FBLikeButtonPop.wav in Sources */,
 				89A4410918DB964F001AC2F9 /* FBSocialSentenceView.m in Sources */,
 				89A440E918DB8C87001AC2F9 /* FBDialogClose.png in Sources */,
 				89A440EB18DB8C87001AC2F9 /* FBFriendPickerViewDefault.png in Sources */,
@@ -1881,7 +1841,6 @@
 				84F992061871C8B500E3369F /* Facebook.m in Sources */,
 				84AF2F1518760A0A00B88383 /* FBAppCall.m in Sources */,
 				9D3D36B117CBE6C500B9B049 /* FBTask.m in Sources */,
-				89A4410818DB964F001AC2F9 /* FBLikeControl.m in Sources */,
 				84F992E31871E66700E3369F /* FBUtility.m in Sources */,
 				84F9926D1871DC8800E3369F /* FBFriendPickerViewController.m in Sources */,
 				84F9922A1871CAEC00E3369F /* FBDynamicFrameworkLoader.m in Sources */,
@@ -1932,7 +1891,6 @@
 				84F992791871DCA300E3369F /* FBImageResourceLoader.m in Sources */,
 				9D5B916117BD3792009DBABB /* FBSessionFacebookAppWebLoginStategy.m in Sources */,
 				84F9922B1871CAEC00E3369F /* FBErrorUtility.m in Sources */,
-				89A4410618DB964F001AC2F9 /* FBLikeActionController.m in Sources */,
 				9D5B916717BD379C009DBABB /* FBSessionSafariLoginStategy.m in Sources */,
 				8474FE9D186800E6000698FF /* FBWebDialogs.m in Sources */,
 				9D5B916D17BD37A8009DBABB /* FBSessionInlineWebViewLoginStategy.m in Sources */,
@@ -1945,7 +1903,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A440FD18DB8CB2001AC2F9 /* FBLikeButtonPop.wav in Sources */,
 				89A440D018DB8C7B001AC2F9 /* FBDialogClose.png in Sources */,
 				89A440D218DB8C7B001AC2F9 /* FBFriendPickerViewDefault.png in Sources */,
 				89A440D318DB8C7B001AC2F9 /* FBLikeButtonBackground.png in Sources */,
@@ -2015,7 +1972,6 @@
 				85ADAACC16A0DA6D00145328 /* FBAuthenticationTests.m in Sources */,
 				84F992C81871E63A00E3369F /* FBRequestBody.m in Sources */,
 				89BEB3FD18E47EF3006C97A6 /* FBLikeBoxBorderView.m in Sources */,
-				89A4410218DB9644001AC2F9 /* FBLikeActionController.m in Sources */,
 				85ADAACD16A0DA6D00145328 /* FBFacebookAppAuthenticationTests.m in Sources */,
 				85ADAACE16A0DA6D00145328 /* FBLoginDialogAuthenticationTests.m in Sources */,
 				84F992811871DCC700E3369F /* FBLoginDialog.m in Sources */,
@@ -2054,7 +2010,6 @@
 				89A4410C18DB969B001AC2F9 /* FBLikeDialogParams.m in Sources */,
 				9D5B916617BD379C009DBABB /* FBSessionSafariLoginStategy.m in Sources */,
 				84F993031871E6B600E3369F /* FBSessionManualTokenCachingStrategy.m in Sources */,
-				89A4410418DB9644001AC2F9 /* FBLikeControl.m in Sources */,
 				9D3D36B017CBE6C500B9B049 /* FBTask.m in Sources */,
 				84F992181871CACB00E3369F /* FBDialogsParams.m in Sources */,
 				89BEB3FF18E47EF3006C97A6 /* FBLoginTooltipView.m in Sources */,
@@ -2071,7 +2026,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8961FE0318D3C1FD0033CDCB /* FBLikeButtonPop.wav in Sources */,
 				8961FDEE18D3C1380033CDCB /* FBLikeButtonBackground.png in Sources */,
 				8961FDF218D3C1380033CDCB /* FBLikeButtonBackgroundSelected.png in Sources */,
 				8961FDF418D3C1380033CDCB /* FBLikeButtonIcon.png in Sources */,
@@ -2099,7 +2053,6 @@
 				84F992DE1871E65400E3369F /* NSError+FBError.m in Sources */,
 				84F992581871DC6E00E3369F /* FBGraphObjectPagingLoader.m in Sources */,
 				9D3FA21318A2CEC1005B8F50 /* FBTooltipView.m in Sources */,
-				8961FDBE18D3BC9F0033CDCB /* FBLikeActionController.m in Sources */,
 				84F992001871C85400E3369F /* FBCacheDescriptor.m in Sources */,
 				84F992041871C8B500E3369F /* Facebook.m in Sources */,
 				84F9925C1871DC6E00E3369F /* FBGraphObjectTableDataSource.m in Sources */,
@@ -2112,7 +2065,6 @@
 				84F992491871DC5C00E3369F /* FBFriendPickerCacheDescriptor.m in Sources */,
 				84F991F11871C81600E3369F /* FBAppLinkData.m in Sources */,
 				84F992561871DC6E00E3369F /* FBGraphObject.m in Sources */,
-				8961FDC118D3BC9F0033CDCB /* FBLikeControl.m in Sources */,
 				84F992FC1871E6A200E3369F /* FBSessionUtility.m in Sources */,
 				8932956D18E232E900BF1B30 /* FBLikeBoxView.m in Sources */,
 				84F992151871CAC100E3369F /* FBDialogsParams.m in Sources */,
