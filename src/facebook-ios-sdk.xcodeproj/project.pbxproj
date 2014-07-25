@@ -452,8 +452,6 @@
 		DDB7C34C15A6181100C8DCE6 /* FBSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB7C34A15A6181100C8DCE6 /* FBSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E23E5A0B1521161900A011A8 /* FBError.h in Headers */ = {isa = PBXBuildFile; fileRef = E23E5A091521161900A011A8 /* FBError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E28B75541547D85A002E30C0 /* FBFriendPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E28B75521547D85A002E30C0 /* FBFriendPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6B53A461961F228008720AC /* FBAmbientDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C7B95195B9B1100397CBB /* FBAmbientDeviceInfo.m */; };
-		F6B53A511961F229008720AC /* FBAmbientDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1C7B95195B9B1100397CBB /* FBAmbientDeviceInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -1948,7 +1946,6 @@
 				85D1B1F61908893400880700 /* FBAppLinksIntegrationTests.m in Sources */,
 				84F9921A1871CACB00E3369F /* FBDialogsParams.m in Sources */,
 				84F991FB1871C82800E3369F /* FBAppLinkData.m in Sources */,
-				F6B53A511961F229008720AC /* FBAmbientDeviceInfo.m in Sources */,
 				84F991FD1871C82800E3369F /* FBDataDiskCache.m in Sources */,
 				89BEB40318E47EF4006C97A6 /* FBLoginTooltipView.m in Sources */,
 				9D3D36AD17CBE6C500B9B049 /* FBTaskCompletionSource.m in Sources */,
@@ -2139,7 +2136,6 @@
 				84F992181871CACB00E3369F /* FBDialogsParams.m in Sources */,
 				89BEB3FF18E47EF3006C97A6 /* FBLoginTooltipView.m in Sources */,
 				9D5B916C17BD37A8009DBABB /* FBSessionInlineWebViewLoginStategy.m in Sources */,
-				F6B53A461961F228008720AC /* FBAmbientDeviceInfo.m in Sources */,
 				84F992771871DCA200E3369F /* FBImageResourceLoader.m in Sources */,
 				89BEB40018E47EF3006C97A6 /* FBLoginView.m in Sources */,
 				85BDF76317CD57C3002E7225 /* FBAppBridgeTests.m in Sources */,
