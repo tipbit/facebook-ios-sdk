@@ -1763,7 +1763,7 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				TargetAttributes = {
 					85A44B9E16A8CE05007BE80E = {
 						TestTargetID = 89263C041926CBA500A44711;
@@ -2295,6 +2295,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug;
 		};
@@ -2302,6 +2303,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release;
 		};
@@ -2309,6 +2311,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA11926A84100E61379 /* FacebookSDK-Project-Debug.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_THUMB_SUPPORT = NO;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -2316,6 +2322,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA21926A84100E61379 /* FacebookSDK-Project-Release.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release;
 		};
@@ -2323,6 +2332,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA51926A84100E61379 /* FacebookSDK-LogicTests.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug;
 		};
@@ -2330,6 +2340,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA51926A84100E61379 /* FacebookSDK-LogicTests.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release;
 		};
@@ -2337,6 +2348,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8984B687192E746E0008D347 /* FacebookSDK-Project-Release-64.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release64;
 		};
@@ -2344,6 +2358,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release64;
 		};
@@ -2351,6 +2366,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release64;
 		};
@@ -2358,6 +2374,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA51926A84100E61379 /* FacebookSDK-LogicTests.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release64;
 		};
@@ -2365,6 +2382,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8984B686192E746E0008D347 /* FacebookSDK-Project-Debug-64.xcconfig */;
 			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug64;
 		};
@@ -2372,6 +2392,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA01926A84100E61379 /* FacebookSDK-Library.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug64;
 		};
@@ -2379,6 +2400,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug64;
 		};
@@ -2386,6 +2408,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA51926A84100E61379 /* FacebookSDK-LogicTests.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug64;
 		};
@@ -2393,6 +2416,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug;
 		};
@@ -2400,6 +2424,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug64;
 		};
@@ -2407,6 +2432,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release;
 		};
@@ -2414,6 +2440,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C3D1926CD9B00A44711 /* FacebookSDK-Application.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release64;
 		};
@@ -2421,6 +2448,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug;
 		};
@@ -2428,6 +2456,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug64;
 		};
@@ -2435,6 +2464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release;
 		};
@@ -2442,6 +2472,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89263C001926CA5100A44711 /* FacebookSDK-ApplicationTests.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release64;
 		};
@@ -2449,6 +2480,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Debug;
 		};
@@ -2456,6 +2488,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 892B1FA41926A84100E61379 /* FacebookSDK-LogicTests-Override.xcconfig */;
 			buildSettings = {
+				GCC_THUMB_SUPPORT = NO;
 			};
 			name = Release;
 		};
