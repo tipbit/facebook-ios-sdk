@@ -15,7 +15,7 @@
 //
 
 // Architectures
-ARCHS = arm64 x86_64
+//ARCHS = arm64 x86_64
 
 // Deployment
 IPHONEOS_DEPLOYMENT_TARGET = 7.0
