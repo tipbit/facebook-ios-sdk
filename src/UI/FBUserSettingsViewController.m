@@ -249,6 +249,8 @@
     [self updateBackgroundImage];
 }
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wmismatched-return-types"
 - (NSUInteger)supportedInterfaceOrientations {
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
         return UIInterfaceOrientationMaskAll;
@@ -256,6 +258,7 @@
         return UIInterfaceOrientationMaskPortrait;
     }
 }
+#pragma clang diagnostic pop
 
 - (BOOL)shouldAutorotate {
     return YES;
