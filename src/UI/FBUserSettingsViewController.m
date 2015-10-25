@@ -233,7 +233,7 @@
 }
 
 - (void)updateBackgroundImage {
-    NSString *orientation = UIInterfaceOrientationIsPortrait(self.interfaceOrientation) ? @"Portrait" : @"Landscape";
+    NSString *orientation = UIInterfaceOrientationIsPortrait([[UIApplication sharedApplication] statusBarOrientation]) ? @"Portrait" : @"Landscape";
     NSString *idiom = (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ? @"IPhone" : @"IPad";
     NSString *imagePath = [NSString stringWithFormat:@"FBUserSettingsViewResources.bundle/images/loginBackground%@%@.jpg", idiom, orientation];
     self.backgroundImageView.image = [UIImage imageNamed:imagePath];
